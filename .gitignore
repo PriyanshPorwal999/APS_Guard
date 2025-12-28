@@ -1,0 +1,16 @@
+venv/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+pytest_cache/
+.pytest_cache/
+
+# Python cache (Good practice to add these too)
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
