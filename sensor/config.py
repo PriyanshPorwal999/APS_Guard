@@ -11,6 +11,6 @@ env_var = EnvironmentVariable()
 if env_var.mongo_db_url is None:
     raise Exception("MONGO_DB_URL is not set or .env file not loaded")
 
-print("Mongo URL Loaded:", env_var.mongo_db_url)
+print("Mongo URL Loaded")
 
 mongo_client = pymongo.MongoClient(env_var.mongo_db_url)
